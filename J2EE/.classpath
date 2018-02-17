@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/outsystems.hubedition.runtimeplatformutil.jar"/>
+	<classpathentry kind="lib" path="lib/outsystems.hubedition.runtimecommon.jar"/>
+	<classpathentry kind="lib" path="lib/outsystems.hubedition.runtimeplatform.jar">
+        <attributes>
+            <attribute name="javadoc_location" value="jar:platform:/resource/J2EE/docs/runtimeplatform.zip!/"/>
+        </attributes>
+    </classpathentry>
+    <classpathentry kind="lib" path="lib/outsystems.hubedition.databaseabstractionlayer.jar">
+        <attributes>
+            <attribute name="javadoc_location" value="jar:platform:/resource/J2EE/docs/databaseabstractionlayer.zip!/"/>
+        </attributes>
+    </classpathentry>
+   <classpathentry kind="lib" path="lib/outsystems.rest.api.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:platform:/resource/J2EE/docs/restapi.zip!/"/>
+    </attributes>
+   </classpathentry>
+  <classpathentry kind="output" path="bin"/>
+</classpath>

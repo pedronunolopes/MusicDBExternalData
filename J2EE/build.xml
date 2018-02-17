@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project name="MusicDBExternalData" default="all" basedir=".">
+  <!-- set global properties for this build -->
+  <property name="src" location="." />
+  <property name="build" location="bin" />
+  <property name="lib" location="lib" />
+  <property name="docs" location="docs" />
+  <!-- the other jars for axis, servlets, etc are added to the classpath -->
+  <path id="base.libraries">
+    <pathelement location="${build}" />
+    <fileset dir="${lib}">
+      <include name="*.jar" />
+    </fileset>
+  </path>
+  <path id="classpath">
+    <fileset dir="${lib}">
+      <include name="**.jar" />
+    </fileset>
+    <fileset dir="${build}">
+      <include name="*.jar" />
+    </fileset>
+  </path>
+  <target name="init">
+    <tstamp />
+  </target>
+  <!-- Extension SRC -->
+  <target name="compile" depends="init">
+    <mkdir dir="${build}" />
+    <delete file="${lib}/outsystems.nosextension.jar" />
+    <javac srcdir="${src}" destdir="${build}" includeantruntime="false" encoding="UTF-8">
+      <classpath refid="classpath" />
+    </javac>
+  </target>
+  <target name="jar" depends="clean,compile">
+    <jar destfile="${build}/outsystems.nosmusicdbexternaldata.jar">
+      <fileset dir="${build}">
+        <include name="**/*.class" />
+      </fileset>
+    </jar>
+  </target>
+  <target name="javadocs" depends="compile" description="Generate API docs for the Generated Extension source">
+    <mkdir dir="${docs}" />
+    <javadoc defaultexcludes="yes" use="yes" header="Extension - OutSystems Generated Extension" doctitle="Extension - OutSystems Generated Extension" nodeprecatedlist="no" sourcepath="${src}" destdir="${docs}" breakIterator="yes">
+      <packageset dir="${src}" defaultexcludes="yes" />
+      <classpath>
+        <fileset dir="${lib}">
+          <include name="**.jar" />
+        </fileset>
+      </classpath>
+    </javadoc>
+  </target>
+  <target name="clean">
+    <delete dir="${build}" />
+    <delete dir="${docs}" />
+  </target>
+  <target name="all" depends="jar" />
+</project>

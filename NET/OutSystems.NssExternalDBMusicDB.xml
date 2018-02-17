@@ -1,0 +1,868 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OutSystems.NssExternalDBMusicDB</name>
+    </assembly>
+    <members>
+        <member name="T:OutSystems.NssExternalDBMusicDB.ENt_MUEventEntityRecord">
+            <summary>
+            Entity <code>ENt_MUEventEntityRecord</code> that represents the Service Studio entity
+             <code>t_MUEvent</code> <p> Description: </p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUEventEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUEventEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUEventEntityRecord.ReadIM(OutSystems.NssExternalDBMusicDB.ENt_MUEventEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.ENt_MUAlbumSongEntityRecord">
+            <summary>
+            Entity <code>ENt_MUAlbumSongEntityRecord</code> that represents the Service Studio entity
+             <code>t_MUAlbumSong</code> <p> Description: </p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUAlbumSongEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUAlbumSongEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUAlbumSongEntityRecord.ReadIM(OutSystems.NssExternalDBMusicDB.ENt_MUAlbumSongEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.ENt_MUSongEntityRecord">
+            <summary>
+            Entity <code>ENt_MUSongEntityRecord</code> that represents the Service Studio entity
+             <code>t_MUSong</code> <p> Description: </p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUSongEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUSongEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUSongEntityRecord.ReadIM(OutSystems.NssExternalDBMusicDB.ENt_MUSongEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.ENt_MUArtistMusicStyleEntityRecord">
+            <summary>
+            Entity <code>ENt_MUArtistMusicStyleEntityRecord</code> that represents the Service Studio entity
+             <code>t_MUArtistMusicStyle</code> <p> Description: </p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUArtistMusicStyleEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUArtistMusicStyleEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUArtistMusicStyleEntityRecord.ReadIM(OutSystems.NssExternalDBMusicDB.ENt_MUArtistMusicStyleEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.ENt_MDMusicStyleEntityRecord">
+            <summary>
+            Entity <code>ENt_MDMusicStyleEntityRecord</code> that represents the Service Studio entity
+             <code>t_MDMusicStyle</code> <p> Description: </p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MDMusicStyleEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MDMusicStyleEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MDMusicStyleEntityRecord.ReadIM(OutSystems.NssExternalDBMusicDB.ENt_MDMusicStyleEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.ENt_MDCountryEntityRecord">
+            <summary>
+            Entity <code>ENt_MDCountryEntityRecord</code> that represents the Service Studio entity
+             <code>t_MDCountry</code> <p> Description: </p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MDCountryEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MDCountryEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MDCountryEntityRecord.ReadIM(OutSystems.NssExternalDBMusicDB.ENt_MDCountryEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.ENt_MDEventEntityRecord">
+            <summary>
+            Entity <code>ENt_MDEventEntityRecord</code> that represents the Service Studio entity
+             <code>t_MDEvent</code> <p> Description: </p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MDEventEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MDEventEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MDEventEntityRecord.ReadIM(OutSystems.NssExternalDBMusicDB.ENt_MDEventEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.ENt_MUAlbumEntityRecord">
+            <summary>
+            Entity <code>ENt_MUAlbumEntityRecord</code> that represents the Service Studio entity
+             <code>t_MUAlbum</code> <p> Description: </p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUAlbumEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUAlbumEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUAlbumEntityRecord.ReadIM(OutSystems.NssExternalDBMusicDB.ENt_MUAlbumEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.ENt_MUArtistEntityRecord">
+            <summary>
+            Entity <code>ENt_MUArtistEntityRecord</code> that represents the Service Studio entity
+             <code>t_MUArtist</code> <p> Description: </p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUArtistEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUArtistEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_MUArtistEntityRecord.ReadIM(OutSystems.NssExternalDBMusicDB.ENt_MUArtistEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.ENt_VNVenueEntityRecord">
+            <summary>
+            Entity <code>ENt_VNVenueEntityRecord</code> that represents the Service Studio entity
+             <code>t_VNVenue</code> <p> Description: </p>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_VNVenueEntityRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_VNVenueEntityRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.ENt_VNVenueEntityRecord.ReadIM(OutSystems.NssExternalDBMusicDB.ENt_VNVenueEntityRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RCt_MUEventRecord">
+            <summary>
+            Structure <code>RCt_MUEventRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUEventRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUEventRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUEventRecord.ReadIM(OutSystems.NssExternalDBMusicDB.RCt_MUEventRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RCt_MUAlbumSongRecord">
+            <summary>
+            Structure <code>RCt_MUAlbumSongRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUAlbumSongRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUAlbumSongRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUAlbumSongRecord.ReadIM(OutSystems.NssExternalDBMusicDB.RCt_MUAlbumSongRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RCt_MUSongRecord">
+            <summary>
+            Structure <code>RCt_MUSongRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUSongRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUSongRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUSongRecord.ReadIM(OutSystems.NssExternalDBMusicDB.RCt_MUSongRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RCt_MUArtistMusicStyleRecord">
+            <summary>
+            Structure <code>RCt_MUArtistMusicStyleRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUArtistMusicStyleRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUArtistMusicStyleRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUArtistMusicStyleRecord.ReadIM(OutSystems.NssExternalDBMusicDB.RCt_MUArtistMusicStyleRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RCt_MDMusicStyleRecord">
+            <summary>
+            Structure <code>RCt_MDMusicStyleRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MDMusicStyleRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MDMusicStyleRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MDMusicStyleRecord.ReadIM(OutSystems.NssExternalDBMusicDB.RCt_MDMusicStyleRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RCt_MDCountryRecord">
+            <summary>
+            Structure <code>RCt_MDCountryRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MDCountryRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MDCountryRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MDCountryRecord.ReadIM(OutSystems.NssExternalDBMusicDB.RCt_MDCountryRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RCt_MDEventRecord">
+            <summary>
+            Structure <code>RCt_MDEventRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MDEventRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MDEventRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MDEventRecord.ReadIM(OutSystems.NssExternalDBMusicDB.RCt_MDEventRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RCt_MUAlbumRecord">
+            <summary>
+            Structure <code>RCt_MUAlbumRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUAlbumRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUAlbumRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUAlbumRecord.ReadIM(OutSystems.NssExternalDBMusicDB.RCt_MUAlbumRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RCt_MUArtistRecord">
+            <summary>
+            Structure <code>RCt_MUArtistRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUArtistRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUArtistRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_MUArtistRecord.ReadIM(OutSystems.NssExternalDBMusicDB.RCt_MUArtistRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RCt_VNVenueRecord">
+            <summary>
+            Structure <code>RCt_VNVenueRecord</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_VNVenueRecord.Read(System.Data.IDataReader,System.Int32@)">
+            <summary>
+            Read a record from database
+            </summary>
+            <param name="r"> Data base reader</param>
+            <param name="index"> index</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_VNVenueRecord.ReadDB(System.Data.IDataReader)">
+            <summary>
+            Read from database
+            </summary>
+            <param name="r"> Data reader</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RCt_VNVenueRecord.ReadIM(OutSystems.NssExternalDBMusicDB.RCt_VNVenueRecord)">
+            <summary>
+            Read from record
+            </summary>
+            <param name="r"> Record</param>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RLt_MUEventRecordList">
+            <summary>
+            RecordList type <code>RLt_MUEventRecordList</code> that represents a record list of
+             <code>t_MUEvent</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUEventRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUEventRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUEventRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExternalDBMusicDB.RCt_MUEventRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUEventRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUEventRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RLt_MUAlbumSongRecordList">
+            <summary>
+            RecordList type <code>RLt_MUAlbumSongRecordList</code> that represents a record list of
+             <code>t_MUAlbumSong</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUAlbumSongRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUAlbumSongRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUAlbumSongRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExternalDBMusicDB.RCt_MUAlbumSongRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUAlbumSongRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUAlbumSongRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RLt_MUSongRecordList">
+            <summary>
+            RecordList type <code>RLt_MUSongRecordList</code> that represents a record list of
+             <code>t_MUSong</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUSongRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUSongRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUSongRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExternalDBMusicDB.RCt_MUSongRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUSongRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUSongRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RLt_MUArtistMusicStyleRecordList">
+            <summary>
+            RecordList type <code>RLt_MUArtistMusicStyleRecordList</code> that represents a record list of
+             <code>t_MUArtistMusicStyle</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUArtistMusicStyleRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUArtistMusicStyleRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUArtistMusicStyleRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExternalDBMusicDB.RCt_MUArtistMusicStyleRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUArtistMusicStyleRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUArtistMusicStyleRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RLt_MDMusicStyleRecordList">
+            <summary>
+            RecordList type <code>RLt_MDMusicStyleRecordList</code> that represents a record list of
+             <code>t_MDMusicStyle</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDMusicStyleRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDMusicStyleRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDMusicStyleRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExternalDBMusicDB.RCt_MDMusicStyleRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDMusicStyleRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDMusicStyleRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RLt_MDCountryRecordList">
+            <summary>
+            RecordList type <code>RLt_MDCountryRecordList</code> that represents a record list of
+             <code>t_MDCountry</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDCountryRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDCountryRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDCountryRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExternalDBMusicDB.RCt_MDCountryRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDCountryRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDCountryRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RLt_MDEventRecordList">
+            <summary>
+            RecordList type <code>RLt_MDEventRecordList</code> that represents a record list of
+             <code>t_MDEvent</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDEventRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDEventRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDEventRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExternalDBMusicDB.RCt_MDEventRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDEventRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MDEventRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RLt_MUAlbumRecordList">
+            <summary>
+            RecordList type <code>RLt_MUAlbumRecordList</code> that represents a record list of
+             <code>t_MUAlbum</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUAlbumRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUAlbumRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUAlbumRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExternalDBMusicDB.RCt_MUAlbumRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUAlbumRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUAlbumRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RLt_MUArtistRecordList">
+            <summary>
+            RecordList type <code>RLt_MUArtistRecordList</code> that represents a record list of
+             <code>t_MUArtist</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUArtistRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUArtistRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUArtistRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExternalDBMusicDB.RCt_MUArtistRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUArtistRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_MUArtistRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+        <member name="T:OutSystems.NssExternalDBMusicDB.RLt_VNVenueRecordList">
+            <summary>
+            RecordList type <code>RLt_VNVenueRecordList</code> that represents a record list of
+             <code>t_VNVenue</code>
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_VNVenueRecordList.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_VNVenueRecordList.#ctor(System.Data.IDbTransaction)">
+            <summary>
+            Constructor with transaction parameter
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_VNVenueRecordList.#ctor(System.Data.IDbTransaction,OutSystems.HubEdition.RuntimePlatform.Db.OSList{OutSystems.NssExternalDBMusicDB.RCt_VNVenueRecord}.ReadDBMethodDelegate)">
+            <summary>
+            Constructor with transaction parameter and alternate read method
+            </summary>
+            <param name="trans"> IDbTransaction Parameter</param>
+            <param name="alternateReadDBMethod"> Alternate Read Method</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_VNVenueRecordList.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor declaration for serialization
+            </summary>
+            <param name="info"> SerializationInfo</param>
+            <param name="context"> StreamingContext</param>
+        </member>
+        <member name="M:OutSystems.NssExternalDBMusicDB.RLt_VNVenueRecordList.NewList">
+            <summary>
+            Create as new list
+            </summary>
+            <returns>The new record list</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TestWebSite", "TestWebSite\", "{E46BE98C-07EA-4C8A-960D-B7E64D8B363C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50289"
+		Debug.AspNetCompiler.PhysicalPath = "TestWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50289\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50289"
+		Release.AspNetCompiler.PhysicalPath = "TestWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50289\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50289"
+		SlnRelativePath = "TestWebSite\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicDBExternalData", "NET\MusicDBExternalData.csproj", "{B7BD97A0-4329-41FC-9406-53B8038E8550}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E46BE98C-07EA-4C8A-960D-B7E64D8B363C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46BE98C-07EA-4C8A-960D-B7E64D8B363C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46BE98C-07EA-4C8A-960D-B7E64D8B363C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46BE98C-07EA-4C8A-960D-B7E64D8B363C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B7BD97A0-4329-41FC-9406-53B8038E8550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BD97A0-4329-41FC-9406-53B8038E8550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BD97A0-4329-41FC-9406-53B8038E8550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BD97A0-4329-41FC-9406-53B8038E8550}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5219200E-BDF9-4C3C-A879-DBFD820B26A5}
+	EndGlobalSection
+EndGlobal
